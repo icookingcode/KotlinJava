@@ -1,5 +1,10 @@
 package com.guc.ktl
 
+import com.guc.ktl.bean.Monkey
+import com.guc.ktl.bean.Person
+import com.guc.ktl.bean.Student
+import com.guc.ktl.bean.User
+
 fun main(args:Array<String>){
     println("Hello World")
     val a:Int? = sum(5,2);
@@ -12,6 +17,21 @@ fun main(args:Array<String>){
     testNull()
     testRange()
     testString()
+    ConditionControl.testWhen(1)
+    ConditionControl.testFor()
+    ConditionControl.testLabel()
+    val user = User("Andy", 30)
+    println(user.toString())
+    User.Study().print()
+    user.Hobby().print()
+    var person = Person();
+    person.eat()
+    var monkey = Monkey();
+    monkey.eat()
+    var student = Student();
+    student.eat()
+    student.study()
+
 }
 
 fun sum(a:Int,b:Int):Int?{
