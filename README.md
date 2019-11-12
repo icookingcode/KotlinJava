@@ -148,3 +148,34 @@ protected  // 同一个文件中或子类可见
 public     // 所有调用的地方都可见
 internal   // 同一个模块中可见
 ```
+## 接口
+```
+可包含：
+抽象的属性：  var name:String
+未实现方法：  fun f()
+已实现方法：  fun f(){
+                   ...
+              }
+              
+实现接口必须实现：
+抽象的属性：  override var name: String = ""
+未实现方法：  override fun f() {
+                // 方法体
+              }
+```
+## 扩展
+```
+1.扩展函数：不对原类做修改
+fun receiverType.functionName(params){
+    body
+}
+注：receiverType:待扩展的对象
+    functionName:扩展函数的名称
+    params:参数
+2.扩展属性：
+val <T> List<T>.lastIndex: Int
+    get() = size - 1
+注：扩展属性只能被声明为val
+3.扩展声明为成员
+注：在一个类内部你可以为另一个类声明扩展
+```

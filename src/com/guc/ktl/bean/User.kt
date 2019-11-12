@@ -41,3 +41,7 @@ class User constructor(name: String){
         }
     }
 }
+/**扩展函数**/
+fun User.Print(){
+    println("扩展函数中"+ toString())
+}

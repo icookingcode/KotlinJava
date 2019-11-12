@@ -1,9 +1,8 @@
 package com.guc.ktl
 
-import com.guc.ktl.bean.Monkey
-import com.guc.ktl.bean.Person
-import com.guc.ktl.bean.Student
-import com.guc.ktl.bean.User
+import com.guc.ktl.bean.*
+import com.guc.ktl.expand.foo
+import com.guc.ktl.expand.swap
 
 fun main(args:Array<String>){
     println("Hello World")
@@ -22,6 +21,7 @@ fun main(args:Array<String>){
     ConditionControl.testLabel()
     val user = User("Andy", 30)
     println(user.toString())
+    user.Print()
     User.Study().print()
     user.Hobby().print()
     var person = Person();
@@ -31,6 +31,18 @@ fun main(args:Array<String>){
     var student = Student();
     student.eat()
     student.study()
+    var mine = Mine()
+    mine.bar()
+    mine.foo()
+    println(mine.name)
+    println("++++++++++++++扩展函数使用++++++++++++++++")
+    val l = mutableListOf<Int>(1,2,3)
+    println("调换前 ${l.toString()}")
+    l.swap(0,2)
+    println("调换后 ${l.toString()}")
+    printFoo(person)
+    BeanCompanion.function1()
+    BeanCompanion().function3()
 
 }
 
@@ -71,4 +83,7 @@ fun testString() {
         print(c)
     }
     println()
+}
+fun printFoo(base: Base){
+    println(base.foo())//类型是Base类
 }
