@@ -43,7 +43,58 @@ fun main(args:Array<String>){
     printFoo(person)
     BeanCompanion.function1()
     BeanCompanion().function3()
+    println("++++++++++++++数据类++++++++++++++++")
+    testDataClass()
+    println("++++++++++++++密封类++++++++++++++++")
+    testSealedClass()
+    println("++++++++++++++泛型++++++++++++++++")
+    testCommon()
+    println("++++++++++++++枚举++++++++++++++++")
+    testEnum()
+}
+//枚举测试
+fun testEnum() {
+    val color = EnumClass.BLUE
+    println("name:${color.name}   ordinal:${color.ordinal}")
+    val color2 = Color.valueOf("RED")
+    val color3 = Color.values()[1]
+    println("name:${color2.name}  ordinal:${color2.ordinal}")
+    println("name:${color3.name}  ordinal:${color3.ordinal}")
+}
 
+//泛型使用
+fun testCommon() {
+    val common = Common(10)
+    val common2 = Common("字符串")
+    val common3 = Common(23.1)
+    common.printValue()
+    common2.printValue()
+    common3.printValue()
+}
+
+//测试密封类
+fun testSealedClass() {
+    val case:SealedClass = Case1()
+    when(case){
+        is Case1 -> case.printCase()
+        is Case2 -> case.printCase2()
+    }
+}
+
+//测试数据类
+fun testDataClass() {
+    val dataClass= DataClass("guc","chao")
+    val dataClass2 = dataClass.copy("dataClass2","chen","xueli")
+    val dataClass3= dataClass.copy()
+    dataClass.bar()
+    dataClass2.bar()
+    dataClass3.bar()
+    println(dataClass)
+    println(dataClass2)
+    println(dataClass3)
+    //组件函数允许数据类在解构声明中使用
+    val (value1,value2) = dataClass
+    println("$value1,$value2")
 }
 
 fun sum(a:Int,b:Int):Int?{

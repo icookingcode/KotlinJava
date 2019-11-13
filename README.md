@@ -179,3 +179,30 @@ val <T> List<T>.lastIndex: Int
 3.扩展声明为成员
 注：在一个类内部你可以为另一个类声明扩展
 ```
+## 数据类和密封类
+数据类 关键字：data  
+使用见：DataClass    
+
+密封类 关键字：sealed  
+## 泛型
+```
+泛型类：    class ClassName<T>(t: T) {
+                var value = t
+                //body
+            }
+泛型函数：  fun <T> funName(value: T){
+                //方法体
+            }
+星号投射：  eg: ArrayList<*> 任何类型的数组
+            * == Any?
+```
+## 枚举类
+```
+EnumClass.valueOf(value: String): EnumClass  // 转换指定 name 为枚举值，若未匹配成功，会抛出IllegalArgumentException
+EnumClass.values(): Array<EnumClass>        // 以数组的形式，返回枚举值
+
+默认名称为枚举字符名，值从0开始。若需要指定值，则可以使用其构造函数
+val name: String //获取枚举名称
+val ordinal: Int //获取枚举值在所有枚举数组中定义的顺序
+
+```
