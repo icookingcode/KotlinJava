@@ -6,6 +6,29 @@ fun main(){
     println("HelloWorld");
 }
 ```
+## 数据类型
+###基本数据类型：  
+Double Float Long Int Short Byte  
+###比较连个数字：  
+=== 数值相等，地址相同  
+== 数值相等
+###类型转换
+toByte() ... toDouble()
+###字符
+```
+//字符转为相应的数字0-9
+fun decimalDigitValue(c: Char): Int {
+    if (c !in '0'..'9')
+        throw IllegalArgumentException("Out of range")
+    return c.toInt() - '0'.toInt() // 显式转换为数字
+}
+```
+###数组
+```
+两种方式：
+val a = arrayOf(1, 2, 3)
+val b = Array(3,{i -> (i*2)})
+```
 ## 函数
 ```
 //连个Int参数 返回Int类型的函数
