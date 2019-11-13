@@ -36,13 +36,7 @@ fun main(args:Array<String>){
     mine.foo()
     println(mine.name)
     println("++++++++++++++扩展函数使用++++++++++++++++")
-    val l = mutableListOf<Int>(1,2,3)
-    println("调换前 ${l.toString()}")
-    l.swap(0,2)
-    println("调换后 ${l.toString()}")
-    printFoo(person)
-    BeanCompanion.function1()
-    BeanCompanion().function3()
+    testExtendFun(person)
     println("++++++++++++++数据类++++++++++++++++")
     testDataClass()
     println("++++++++++++++密封类++++++++++++++++")
@@ -52,6 +46,18 @@ fun main(args:Array<String>){
     println("++++++++++++++枚举++++++++++++++++")
     testEnum()
 }
+
+//扩展
+fun testExtendFun(person: Person) {
+    val l = mutableListOf<Int>(1, 2, 3)
+    println("调换前 ${l.toString()}")
+    l.swap(0, 2)
+    println("调换后 ${l.toString()}")
+    printFoo(person)
+    BeanCompanion.function1()
+    BeanCompanion().function3()
+}
+
 //枚举测试
 fun testEnum() {
     val color = EnumClass.BLUE

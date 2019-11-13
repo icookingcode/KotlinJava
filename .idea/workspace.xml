@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5dc3dc3-e392-4d99-bb93-a6f86b194fc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/guc/ktl/bean/Common.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/guc/ktl/bean/DataClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/guc/ktl/bean/EnumClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/guc/ktl/bean/SealedClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinJava/META-INF/KotlinJava.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinJava/META-INF/KotlinJava.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinJava/com/guc/ktl/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinJava/com/guc/ktl/AppKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/guc/ktl/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guc/ktl/app.kt" afterDir="false" />
     </list>
@@ -37,7 +31,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="java" value="1" />
-          <entry key="kt" value="28" />
+          <entry key="kt" value="29" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
@@ -45,7 +39,7 @@
         <counts>
           <entry key="Git file" value="2" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="28" />
+          <entry key="Kotlin" value="29" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
@@ -54,18 +48,18 @@
           <entry key="SealedClass" value="24" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="39" />
-          <entry key="kt" value="4212" />
+          <entry key="kt" value="4252" />
           <entry key="md" value="596" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
           <entry key="JAVA" value="39" />
-          <entry key="Kotlin" value="4212" />
+          <entry key="Kotlin" value="4252" />
           <entry key="Markdown" value="596" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/app.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="56">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding>
                 <element signature="e#21#107#0" expanded="true" />
               </folding>
@@ -89,6 +83,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="23" column="66" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -119,15 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="22" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/Monkey.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -290,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573617342095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573617766711" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -353,7 +347,7 @@
       <workItem from="1573183265121" duration="12380000" />
       <workItem from="1573434937104" duration="1656000" />
       <workItem from="1573524412822" duration="18485000" />
-      <workItem from="1573607270910" duration="10046000" />
+      <workItem from="1573607270910" duration="10481000" />
     </task>
     <task id="LOCAL-00001" summary="添加gitignore">
       <created>1573184815143</created>
@@ -376,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573550836904</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="数据类和密封类&#10;泛型&#10;枚举类">
+      <created>1573617433451</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573617433451</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49681000" />
+    <option name="totallyTimeSpent" value="50116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +462,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加gitignore" />
     <MESSAGE value="接口&#10;扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口&#10;扩展" />
+    <MESSAGE value="数据类和密封类&#10;泛型&#10;枚举类" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据类和密封类&#10;泛型&#10;枚举类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -524,13 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -617,10 +612,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/app.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        <state relative-caret-position="56">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
           <folding>
             <element signature="e#21#107#0" expanded="true" />
           </folding>
