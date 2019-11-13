@@ -3,6 +3,10 @@ package com.guc.ktl
 import com.guc.ktl.`object`.ConditionControl
 import com.guc.ktl.`object`.Site
 import com.guc.ktl.bean.*
+import com.guc.ktl.entrust.BaseImpl
+import com.guc.ktl.entrust.BlueToothImpl
+import com.guc.ktl.entrust.Derived
+import com.guc.ktl.entrust.MySite
 import com.guc.ktl.expand.foo
 import com.guc.ktl.expand.swap
 
@@ -49,6 +53,31 @@ fun main(args:Array<String>){
     testEnum()
     println("++++++++++++++对象表达式++++++++++++++++")
     testObjectExp()
+    println("++++++++++++++委托++++++++++++++++")
+    testEntrust()
+}
+
+//测试委托
+fun testEntrust() {
+    var b = BaseImpl(20)
+    var c = BlueToothImpl(20)
+    Derived(b).print()
+    Derived(c).print()
+    println()
+    val derived = Derived(b)
+    println(derived.p)
+    derived.p = "HelloWorld"
+    println(derived.p)
+    println("++++++++++++++延时属性++++++++++++++++")
+    println(derived.lazyValue)
+    println(derived.lazyValue)
+    println("++++++++++++++可观察属性++++++++++++++++")
+    derived.observableValue = "第一次赋值"
+    derived.observableValue = "第二次赋值"
+    println(derived.observableValue)
+    println("++++++++++++++把属性存放在映射中++++++++++++++++")
+    val mySite = MySite(mapOf("name" to "百度", "url" to "www.baidu.com"))
+    println("${mySite.name} : ${mySite.url}")
 }
 
 //对象表达式
