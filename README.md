@@ -7,14 +7,14 @@ fun main(){
 }
 ```
 ## 数据类型
-###基本数据类型：  
+### 基本数据类型：  
 Double Float Long Int Short Byte  
-###比较连个数字：  
+### 比较连个数字：  
 === 数值相等，地址相同  
 == 数值相等
-###类型转换
+### 类型转换
 toByte() ... toDouble()
-###字符
+### 字符
 ```
 //字符转为相应的数字0-9
 fun decimalDigitValue(c: Char): Int {
@@ -23,7 +23,7 @@ fun decimalDigitValue(c: Char): Int {
     return c.toInt() - '0'.toInt() // 显式转换为数字
 }
 ```
-###数组
+### 数组
 ```
 两种方式：
 val a = arrayOf(1, 2, 3)
