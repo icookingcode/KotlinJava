@@ -204,5 +204,19 @@ EnumClass.values(): Array<EnumClass>        // 以数组的形式，返回枚举
 默认名称为枚举字符名，值从0开始。若需要指定值，则可以使用其构造函数
 val name: String //获取枚举名称
 val ordinal: Int //获取枚举值在所有枚举数组中定义的顺序
+```
+## 对象表达式和对象声明
+```
+对象可以继承于某个基类，或者实现其他接口
+open class A(x: Int) {
+    public open val y: Int = x
+}
+interface B {……}
+val ab: A = object : A(1), B {
+    override val y = 15
+}
 
+匿名对象可以用作只在本地和私有作用域中声明的类型
+在对象表达中可以方便的访问到作用域中的其他变量
+对象声明在另一个类的内部时，这个对象并不能通过外部类的实例访问到该对象，而只能通过类名来访问
 ```

@@ -1,5 +1,9 @@
-package com.guc.ktl
+package com.guc.ktl.`object`
 
+/**
+ * 对象声明 关键字：object
+ *
+ */
 object ConditionControl{
 
     fun testWhen(x:Int){

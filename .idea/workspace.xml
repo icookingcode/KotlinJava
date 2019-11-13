@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5dc3dc3-e392-4d99-bb93-a6f86b194fc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/guc/ktl/object/Site.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinJava/com/guc/ktl/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinJava/com/guc/ktl/AppKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guc/ktl/ConditionControl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guc/ktl/object/ConditionControl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/guc/ktl/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guc/ktl/app.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +35,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="java" value="1" />
-          <entry key="kt" value="29" />
+          <entry key="kt" value="33" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
@@ -39,7 +43,7 @@
         <counts>
           <entry key="Git file" value="2" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="29" />
+          <entry key="Kotlin" value="33" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
@@ -48,50 +52,41 @@
           <entry key="SealedClass" value="24" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="39" />
-          <entry key="kt" value="4252" />
-          <entry key="md" value="596" />
-          <entry key="txt" value="34" />
+          <entry key="kt" value="4582" />
+          <entry key="md" value="629" />
+          <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
           <entry key="JAVA" value="39" />
-          <entry key="Kotlin" value="4252" />
-          <entry key="Markdown" value="596" />
-          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Kotlin" value="4582" />
+          <entry key="Markdown" value="629" />
+          <entry key="PLAIN_TEXT" value="66" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/app.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            <state relative-caret-position="132">
+              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
               <folding>
-                <element signature="e#21#107#0" expanded="true" />
+                <element signature="e#21#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Enum.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="23" column="66" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="56">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -109,15 +104,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/DataClass.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/User.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -127,11 +113,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/object/ConditionControl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/object/Site.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="226">
-                <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+              <first_editor relative-caret-position="269">
+                <caret line="220" column="46" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -156,15 +160,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/SealedClass.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -174,6 +169,7 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -187,7 +183,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/ConditionControl.java" />
-        <option value="$PROJECT_DIR$/src/com/guc/ktl/ConditionControl.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/User.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/Base.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/Person.kt" />
@@ -199,15 +194,18 @@
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/Mine.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/User.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/expand/MyExpand.kt" />
-        <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/SealedClass" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/DataClass.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/SealedClass.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/Common.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/Color.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/EnumClass.kt" />
+        <option value="$PROJECT_DIR$/src/com/guc/ktl/ConditionControl.kt" />
+        <option value="$PROJECT_DIR$/src/com/guc/ktl/object/ConditionControl.kt" />
+        <option value="$PROJECT_DIR$/src/com/guc/ktl/object/Site.kt" />
         <option value="$PROJECT_DIR$/src/com/guc/ktl/app.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt" />
       </list>
     </option>
   </component>
@@ -273,6 +271,13 @@
             </path>
             <path>
               <item name="KotlinJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ktl" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -284,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573617766711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573626887629" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,6 +299,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.guc.ktl.object" />
       <recent name="com.guc.ktl.bean" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -347,7 +353,7 @@
       <workItem from="1573183265121" duration="12380000" />
       <workItem from="1573434937104" duration="1656000" />
       <workItem from="1573524412822" duration="18485000" />
-      <workItem from="1573607270910" duration="10481000" />
+      <workItem from="1573607270910" duration="15077000" />
     </task>
     <task id="LOCAL-00001" summary="添加gitignore">
       <created>1573184815143</created>
@@ -377,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573617433451</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="app.kt">
+      <created>1573617789867</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573617789867</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50116000" />
+    <option name="totallyTimeSpent" value="54712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +409,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,7 +419,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32764506" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32764506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,7 +476,11 @@
     <MESSAGE value="添加gitignore" />
     <MESSAGE value="接口&#10;扩展" />
     <MESSAGE value="数据类和密封类&#10;泛型&#10;枚举类" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据类和密封类&#10;泛型&#10;枚举类" />
+    <MESSAGE value="app.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="app.kt" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -494,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/Person.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/interf/MyInterface.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -512,13 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/ConditionControl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -543,30 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/SealedClass.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/expand/MyExpand.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#28#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/User.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/ioH.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -578,16 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="226">
-            <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -612,20 +581,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/expand/MyExpand.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="399">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#28#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/User.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="269">
+            <caret line="220" column="46" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/Person.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/SealedClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/object/ConditionControl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/object/Site.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/app.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="132">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
           <folding>
-            <element signature="e#21#107#0" expanded="true" />
+            <element signature="e#21#152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guc/ktl/bean/BeanCompanion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>

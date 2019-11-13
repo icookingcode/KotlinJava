@@ -1,5 +1,7 @@
 package com.guc.ktl
 
+import com.guc.ktl.`object`.ConditionControl
+import com.guc.ktl.`object`.Site
 import com.guc.ktl.bean.*
 import com.guc.ktl.expand.foo
 import com.guc.ktl.expand.swap
@@ -45,6 +47,26 @@ fun main(args:Array<String>){
     testCommon()
     println("++++++++++++++枚举++++++++++++++++")
     testEnum()
+    println("++++++++++++++对象表达式++++++++++++++++")
+    testObjectExp()
+}
+
+//对象表达式
+fun testObjectExp() {
+    //匿名对象可以用作只在本地和私有作用域中声明的类型
+    val site = object {
+        var name: String = "菜鸟教程"
+        var url: String = "www.runoob.com"
+        override fun toString(): String {
+            return "$name  $url"
+        }
+    }
+    println(site.toString())
+    val site1 = Site
+    val site2 = Site
+    site1.url = "www.baidu.com"
+    println("site1.url ${site1.url}")
+    println("site2.url ${site2.url}")
 }
 
 //扩展

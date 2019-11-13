@@ -2,8 +2,11 @@ package com.guc.ktl.bean
 
 /**
  * z
+ * 一个类里面只能声明一个内部关联对象，即关键字 companion 只能使用一次
  */
 class BeanCompanion {
+    // 伴生对象
+    // 类内部的对象声明可以用 companion 关键字标记
     companion object {
         val field1 :Int = 1
         var field2:String = "this is filed2"
@@ -11,6 +14,7 @@ class BeanCompanion {
             println("this is function1")
             functionExtend()
         }
+
         fun function2(){
             println("this is function2")
             function1()
