@@ -7,6 +7,7 @@ import com.guc.ktl.entrust.BaseImpl
 import com.guc.ktl.entrust.BlueToothImpl
 import com.guc.ktl.entrust.Derived
 import com.guc.ktl.entrust.MySite
+import com.guc.ktl.exp.IllegalAgeException
 import com.guc.ktl.expand.foo
 import com.guc.ktl.expand.swap
 
@@ -26,7 +27,11 @@ fun main(args:Array<String>){
     ConditionControl.testFor()
     ConditionControl.testLabel()
     val user = User("Andy", 30)
-    val user2 = User("Guc", 130)
+    try {
+        val user2 = User("Guc", 130)
+    } catch (e: IllegalAgeException) {
+        println(e.message)
+    }
     println(user.toString())
     user.Print()
     User.Study().print()
