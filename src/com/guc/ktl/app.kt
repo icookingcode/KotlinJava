@@ -26,6 +26,7 @@ fun main(args:Array<String>){
     ConditionControl.testFor()
     ConditionControl.testLabel()
     val user = User("Andy", 30)
+    val user2 = User("Guc", 130)
     println(user.toString())
     user.Print()
     User.Study().print()

@@ -1,5 +1,7 @@
 package com.guc.ktl.bean
 
+import com.guc.ktl.exp.IllegalAgeException
+
 class User constructor(name: String){
     init {
         println("初始化名: $name")
@@ -14,6 +16,7 @@ class User constructor(name: String){
             set(value) {
                 if (value>120){
                     field = -1;
+                    throw IllegalAgeException(value)
                 }else{
                     field = value
                 }
