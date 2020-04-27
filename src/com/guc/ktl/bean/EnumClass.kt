@@ -16,7 +16,7 @@ enum class Color(val rgb: Int) {
 /**
  * 默认名称为枚举字符名，值从0开始。若需要指定值，则可以使用其构造函数
  */
-enum class Shape(value: Int) {
+enum class Shape( val value: Int) {
     ovel(100),
     rectangle(200)
 }

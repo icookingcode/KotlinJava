@@ -121,7 +121,7 @@ fun testEnum() {
     println("name:${color.name}   ordinal:${color.ordinal}")
     val color2 = Color.valueOf("RED")
     val color3 = Color.values()[1]
-    println("name:${color2.name}  ordinal:${color2.ordinal}")
+    println("name:${color2.name}  ordinal:${color2.ordinal} ${color2.rgb}")
     println("name:${color3.name}  ordinal:${color3.ordinal}")
 }
 
