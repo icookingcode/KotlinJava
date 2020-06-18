@@ -2,6 +2,7 @@ package com.guc.ktlsecond.classobj
 
 /**
  * 对象表达式
+ * 匿名对象可以用作只在本地和私有作用域中声明的类型
  */
 class ObjExp {
 
